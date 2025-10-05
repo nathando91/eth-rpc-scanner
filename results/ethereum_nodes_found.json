@@ -1,0 +1,86 @@
+{
+  "scan_time": "2025-10-05T07:50:22.873343",
+  "total_nodes_found": 8,
+  "nodes": [
+    {
+      "ip": "49.0.196.87",
+      "port": 8545,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": false
+      },
+      "status": "active"
+    },
+    {
+      "ip": "49.0.197.105",
+      "port": 8545,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": false
+      },
+      "status": "active"
+    },
+    {
+      "ip": "49.0.204.39",
+      "port": 8545,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": false
+      },
+      "status": "active"
+    },
+    {
+      "ip": "49.0.205.196",
+      "port": 8545,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": false
+      },
+      "status": "active"
+    },
+    {
+      "ip": "49.0.205.131",
+      "port": 8545,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": false
+      },
+      "status": "active"
+    },
+    {
+      "ip": "49.0.207.158",
+      "port": 8545,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": false
+      },
+      "status": "active"
+    },
+    {
+      "ip": "49.0.248.222",
+      "port": 8545,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": false
+      },
+      "status": "active"
+    },
+    {
+      "ip": "103.1.187.142",
+      "port": 8545,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": false
+      },
+      "status": "active"
+    }
+  ]
+}

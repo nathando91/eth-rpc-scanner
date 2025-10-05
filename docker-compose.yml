@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+  ethereum-scanner:
+    build: .
+    container_name: ethereum-node-scanner
+    restart: unless-stopped
+    volumes:
+      - ./results:/app/results
+      - ./logs:/app/logs
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: >
+      python3 ethereum_node_scanner.py  --asia-europe  --timeout 1  --threads 3000  --output /app/results/ethereum_nodes.json
+    networks:
+      - scanner-network
+
+  monitor:
+    build: .
+    container_name: ethereum-scanner-monitor
+    restart: unless-stopped
+    volumes:
+      - ./results:/app/results
+    depends_on:
+      - ethereum-scanner
+    command: python3 monitor_scan.py
+    networks:
+      - scanner-network
+
+networks:
+  scanner-network:
+    driver: bridge
+
+volumes:
+  results:
+  logs:

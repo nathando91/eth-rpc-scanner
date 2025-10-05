@@ -1,0 +1,16 @@
+{
+  "scan_time": "2025-10-05T07:25:50.517760",
+  "total_nodes_found": 1,
+  "nodes": [
+    {
+      "ip": "137.184.86.110",
+      "port": 8545,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": false
+      },
+      "status": "active"
+    }
+  ]
+}
